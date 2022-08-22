@@ -24,6 +24,7 @@ public class SimDetails {
 	private String status;
 	private Date expdate;
 	private Date regdate;
+	private String state;
 	private String kyc;
 	private String provider;
 	private String fullname;

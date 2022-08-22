@@ -67,6 +67,7 @@ public class SimController {
 			details.setPhoneno(simdetails.getPhoneno());
 			details.setProvider(simdetails.getProvider());
 			details.setRegdate(simdetails.getRegdate());
+			details.setState(simdetails.getState());
 			details.setStatus(simdetails.getStatus());
 			return repository.save(details);
 			}).orElseGet(()->{
@@ -92,6 +93,7 @@ public class SimController {
 			details.setPhoneno(simdetails.getPhoneno());
 			details.setProvider(simdetails.getProvider());
 			details.setRegdate(simdetails.getRegdate());
+			details.setState(simdetails.getState());
 			details.setStatus(simdetails.getStatus());
 			renewValidity(details);
 			return repository.save(details);
