@@ -1,6 +1,6 @@
 ## sim-card-api
 REST API to handle sim card details <br>
-[Link](https://sim-card-api-1210.herokuapp.com/api/)<br>
+[Application Link](https://sim-card-api-1210.herokuapp.com/api/)<br>
 
 | API End Point      | Description | HTTP Method     |
 | :---        |    :----:   |          ---: |
